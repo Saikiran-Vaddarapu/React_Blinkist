@@ -1,0 +1,28 @@
+input
+{
+   height: 30px;
+   width: 500px;
+   left: 52px;
+   top: 0px;
+   border-radius: nullpx;
+   margin-left: 400px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   font-size: 20px;
+   padding: 15px;
+   border-color: aliceblue;
+}
+img
+ {
+  height: 264px;
+  width: 1012px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin-left: 400px;
+ }
+
+ .ban
+ {
+   display: block;
+ }

@@ -1,0 +1,112 @@
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-left: 400px;
+  }
+  
+ nav
+ {
+  background-color:white;
+ }
+ nav li {
+    float: left;
+  }
+
+  nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+ img
+ {
+  height: 264px;
+  width: 1012px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin-left: 400px;
+ }
+
+ .ban
+ {
+   display: block;
+ }
+
+ .explore
+ {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4);
+ }
+
+ .content
+ {
+  background-color: #f1f6f4;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  padding-left: 400px;
+ }
+
+ .titles h4
+ {
+   display: inline;
+   margin-right:150px;
+   font-size: 18px;
+ }
+
+ .titles h4:hover
+ {
+   color: blue;
+ }
+
+ .titles
+ {
+   margin-bottom: 20px;
+   margin-top: 20px;
+ }
+
+ .flexstyle
+ {
+  display: flex;
+ }
+ .list
+ {
+   display: block;
+   padding-right: 100px;
+ }
+
+ .list li
+ {
+   padding: 10px;
+   font-size: 20px;
+ }
+
+ .list li:hover
+ {
+   color : blue;
+ }
+  /* Change the link color to #111 (black) on hover */
+ /* nav a:hover {
+    background-color: gold;
+  } */
+  

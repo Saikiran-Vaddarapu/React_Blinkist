@@ -1,0 +1,35 @@
+.out
+{
+    margin-top: 20px;
+    margin-left: 400px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.right img
+{
+   height: 292px;
+   width: 294.1007080078125px;
+   left: 0px;
+   margin: 20px 20px 20px 100px; 
+   border-radius: 0px;
+}
+.left h4
+{
+    margin-bottom: 100px;
+}
+
+.left button
+{
+    padding: 15px;
+    margin-right: 20px;
+    color:lawngreen;
+    font-weight: bold;
+    background-color: white;
+    font-size: 16px;
+    border: 2px solid black;
+}
+.left button:hover
+{
+   color: black;
+   background-color: chartreuse;
+}

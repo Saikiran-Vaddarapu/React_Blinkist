@@ -1,0 +1,36 @@
+.foot
+{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F1F6F4;
+  color: black;
+}
+
+.footleft
+{
+    /*float: left; */
+    display: block;
+    padding: 60px;
+}
+.footright
+{
+   /* float: right; */
+    display: block;
+    padding: 40px;
+}
+.footright li
+{
+    padding: 10px;
+    font-size: 20px;
+}
+.footContent
+{
+    margin-left: 500px;
+    display: flex;
+}
+.footleft p
+{
+    color:blue;
+    font-size: 20px;
+}

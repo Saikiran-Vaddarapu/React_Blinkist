@@ -1,0 +1,27 @@
+.data
+{
+    margin-left: 400px;
+}
+.readingStatus hr
+{
+   float: left;
+   width: 150px;
+}
+.readingStatus
+{
+    display: block;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.readingStatus:hover
+{
+    color: chartreuse;
+}
+.disp
+{
+    display: flex;
+}
+.modal
+{
+    margin-left: 400px;
+}
