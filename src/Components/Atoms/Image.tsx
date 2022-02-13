@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "/home/saikiv/Documents/REACT/library/src/App.css";
-import Detailview from "../../Detailview";
-import ImageS from "./ImageS";
+import ImageS from "./ImageCard";
 
 const Image : React.FC<{ isRead : string}>= (props) =>
 {

@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Finished from "./Components/ReadFinished/Finished";
-import NavBar from "./Components/NavBar/nav";
-import Footer from "./Components/Footer/footer";
 import './Components/ReadFinished/Finish.css';
-import Image from "./Components/Atoms/Image";
+import ImStatus from "./Components/Testing/ImStatus";
 
 function Finishview() : JSX.Element
 {
@@ -17,10 +15,10 @@ function Finishview() : JSX.Element
       <>
       <Finished onClicked={(temp : boolean)=>updateCurrent(temp)}/>
        { isCurrent ? <div>
-            <Image isRead="currently" />
+            <ImStatus isRead = {false} />
         </div> :
         <div>
-            <Image isRead="finished" />
+            <ImStatus isRead= {true} />
         </div>}
       </>
     );

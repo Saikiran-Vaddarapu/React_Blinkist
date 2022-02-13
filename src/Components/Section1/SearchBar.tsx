@@ -5,7 +5,7 @@ const SearchBar : React.FC = (props) =>
 {
     return (
     <label>
-        <input type="text" placeholder='Search by title or Author' name='search'></input>
+        <input type="text" placeholder='Search by title or Author' name='search' ></input>
     </label>
     );
 }

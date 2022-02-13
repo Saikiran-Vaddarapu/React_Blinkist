@@ -1,10 +1,6 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Detailview from './Detailview';
-import Finishview from './Finishview';
 import Navigator from './Navigator';
 import { BrowserRouter } from 'react-router-dom';
 

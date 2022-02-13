@@ -2,6 +2,7 @@ import React from "react";
 import Image from "../Atoms/Image";
 import SearchBar from "./SearchBar";
 import Banner from "./Banner";
+import ImCard from "../Testing/ImCard";
 
 function Card(): JSX.Element
 {
@@ -9,7 +10,7 @@ function Card(): JSX.Element
   <>
   <Banner />
   <SearchBar />
-  <Image isRead="currently"/>
+  <ImCard isFirst = {false}/>
   </>
   );
 }

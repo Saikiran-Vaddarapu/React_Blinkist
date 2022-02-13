@@ -2,9 +2,16 @@
 {
     margin-top: 20px;
     margin-left: 400px;
+   
+}
+
+.flexStyle
+{
     display: flex;
     margin-bottom: 100px;
 }
+
+
 .right img
 {
    height: 292px;
@@ -15,7 +22,23 @@
 }
 .left h4
 {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
+    font-size: 16px;
+}
+
+.left h2
+{
+     font-size: 36px;
+}
+ 
+p.left
+{
+    font-size: 16px;
+}
+
+h3.left
+{
+    font-size: 20px;
 }
 
 .left button
@@ -32,4 +55,21 @@
 {
    color: black;
    background-color: chartreuse;
+}
+
+.bottom
+{
+    font-size: 20px;
+    width: 200px;
+    padding-bottom: 15px;
+}
+
+.bottomContent
+{
+    padding: 20px 0px;
+    font-size: 18px;
+    width: 600px;
+    height: 100px;
+    font-family: "Cera Pro";
+    line-height: 20px;
 }

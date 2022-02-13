@@ -57,7 +57,7 @@
    border-radius: 0px;
 }
 
-.Imgdata h3,h4,p
+.Imgdata h3,h4,p,h5
 {
   width: 294.1007080078125px;
   margin-left: 10px;
@@ -78,9 +78,16 @@
   font-size: 20px;
 }
 
+.Imgdata i
+{
+  font-size: 20px;
+  padding-right: 10px;
+}
+
 .Imgdata
 {
   display: block;
   flex: 1;
   border: 1px solid azure;
 }
+

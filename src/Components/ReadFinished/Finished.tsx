@@ -1,5 +1,6 @@
 import React from 'react';
 import './Finish.css';
+
 export type finishedProps = {
     onClicked ?: (temp : boolean) => void 
 }
@@ -10,12 +11,13 @@ const Finished : React.FC< finishedProps >= (props) =>
          console.log(e.target.id);
          if(e.target.id === "one")
          {
-             props.onClicked?.(true);
+             props.onClicked?.(true); 
          }
-         else
+         else{
          props.onClicked?.(false);
-
+         }
     }
+    
     return(
     <div className='data'>
     <h1> My Library </h1>
@@ -31,6 +33,11 @@ const Finished : React.FC< finishedProps >= (props) =>
     </div>
     </div>
     );
-}
+} 
+
 
 export default Finished;
+
+
+
+
